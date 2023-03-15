@@ -7,17 +7,27 @@
     margin: 0 auto;
 }
 .top-product h2{
+    font-family: 'Kosugi', sans-serif;
     font-weight: normal;
     font-size: 32px;
 }
 .card {
     width: 24%;
-    margin: 0;
+    margin-right: 6px;
     display: inline-block;
     border: 1px solid #eee;
     border-radius: 4px;
 }
-
+.card:hover {
+    position: relative;
+    top: -1px;
+    box-shadow: 1px 1px #c5c5c5;
+}
+.card:active {
+    position: relative;
+    top: 1px;
+    box-shadow: none;
+}
 .description p {
     font-size: 15px;
     margin: 0;
